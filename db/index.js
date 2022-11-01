@@ -1,10 +1,11 @@
 const mysql = require('mysql');
 
 const db = mysql.createPool({
-    host: '127.0.0.1',
-    user: 'root',
-    password: 'admin123',
-    database: 'my_db_01'
+    host: 'sh-cynosdbmysql-grp-rjjn7l2w.sql.tencentcdb.com',
+    port: 27666,
+    user: 'MingQian',
+    password: 'Zhoujingx1ma',
+    database: 'database_cloud_document'
 })
 
 module.exports = db
